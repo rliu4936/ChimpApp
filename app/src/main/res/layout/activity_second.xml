@@ -9,11 +9,12 @@
     <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="350dp"
-        android:layout_height="650dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="525dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="fill_parent"
@@ -25,79 +26,94 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button2"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button3"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button4"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
         </TableRow>
+
         <TableRow
             android:id="@+id/tableRow2"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
+
             <Button
                 android:id="@+id/button5"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button6"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button7"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button8"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
         </TableRow>
+
         <TableRow
             android:id="@+id/tableRow3"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
+
             <Button
                 android:id="@+id/button9"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button10"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button11"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button12"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
         </TableRow>
+
         <TableRow
             android:id="@+id/tableRow4"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1">
+
             <Button
                 android:id="@+id/button13"
                 android:layout_width="fill_parent"
@@ -122,6 +138,7 @@
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
         </TableRow>
+
         <TableRow
             android:id="@+id/tableRow5"
             android:layout_width="fill_parent"
@@ -145,63 +162,54 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button20"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
         </TableRow>
+
         <TableRow
             android:id="@+id/tableRow6"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_weight="1">
+
             <Button
                 android:id="@+id/button21"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button22"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button23"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
+
             <Button
                 android:id="@+id/button24"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:visibility="invisible" />
         </TableRow>
-        <TableRow
-            android:id="@+id/tableRow7"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1">
-            <Button
-                android:id="@+id/button25"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:visibility="invisible" />
-            <Button
-                android:id="@+id/button26"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:visibility="invisible" />
-            <Button
-                android:id="@+id/button27"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:visibility="invisible" />
-            <Button
-                android:id="@+id/button28"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:visibility="invisible" />
-        </TableRow>
+
     </TableLayout>
+
+    <Button
+        android:id="@+id/regenerateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regenerate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
