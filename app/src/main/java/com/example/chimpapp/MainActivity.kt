@@ -21,4 +21,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, SecondActivity::class.java))
         }
     }
+    //Test
 }
